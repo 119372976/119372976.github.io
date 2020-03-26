@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<title> Services - JCB Consultancy </title>
+
+		<meta charset="UTF-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" type="text/css" href="JCBStyleSheet.css">
+
+        <style>
+            
+            #ebus1upperband {
+                
+                flex: 100%;
+                width: auto;
+                background-color: #f2f2f2;
+                height: 925px;
+                overflow: hidden;
+                x;
+                }
+
+            #options {
+                border-radius: 25px;
+                background-color:#cc33ff;
+                width: 40%;
+                padding-bottom: 40px;
+                margin-top: 40px;
+                color: #ffffff;
+                }
+
+            #options p {
+                font-family: sans-serif;
+                font-size: 20px;
+                }     
+
+            .buttoncalc {
+                font-size: 20px;
+                background-color: #00cc00;
+                border: none;
+                color: white;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                padding: 10px;
+                margin: 0px;
+                margin-left: 3%;
+                border-radius: 25px;
+                transition-duration: 0.4s;      
+                }
+
+            .buttoncalc:hover {
+                background-color: #000000;
+                }
+
+            .buttonclear {
+                font-size: 20px;
+                background-color: #ff3300;
+                border: none;
+                color: white;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                padding: 10px;
+                margin: 0px;
+                margin-left: 3%;
+                border-radius: 25px;
+                transition-duration: 0.4s;      
+                }
+
+            .buttonclear:hover {
+                background-color: #000000;
+                }
+
+
+        </style>
+
+	</head>
+
+	<body>
+
+		<div class="header">
+			
+			<img src="jcb-icon1.jpg" style="margin-left: 41.25%; height: 150px">
+
+            <h2> Services </h2>
+
+		</div>
+
+		<div class="navbar">
+			
+			<a href="index.html"> Home </a>
+
+			<a href="interests.html"> Interests </a>
+
+			<a href="cv.html"> CV </a>
+
+		</div>
+
+        <div id="JCBnavbar">    
+            
+            <a href="jcbconsultancy.html"> JCB Consultancy </a>
+
+            <a href="dis.html"> Distributed Cloud </a>
+            
+            <a href="multi.html"> Multiexperience </a>
+            
+            <a href="hyper.html"> Hyperautomation </a>
+
+        </div>
+
+		<div id="ebus1upperband"> 
+
+			<center>
+
+        <div id="options" class="form">
+
+            <form name="intCalc" method="post" action="eBus2.php">
+        
+        <center>
+            
+            <table cellspacing="20">
+                
+                <tr>
+
+                    <td>
+
+                        <p><strong>Selecting a Consulting Service</strong></p>
+
+                    </td>
+                
+                </tr>
+                
+                <tr>
+                    
+                    <td>
+
+                        <p>Hyperautomation @ $200</p>
+
+                    </td>
+                    
+                    <td>
+                        
+                        <input type="radio" id="Hyperautomation" name="rdoGroup" value="200"  required />
+
+                    </td>
+                
+                </tr>
+                
+                <tr>
+                    
+                    <td>
+
+                        <p>Multiexperience @ $500</p>
+
+                    </td>
+                    
+                    <td>
+                        
+                        <input type="radio" id="Multiexperience" name="rdoGroup" value="500"  />
+                    
+                    </td>
+                
+                </tr>
+
+                <tr>
+
+                    <td>
+
+                        <p>Distributed Cloud @ $1000</p>
+
+                    </td>
+
+                    <td>
+
+                        <input type="radio" id="DistributedCloud" name="rdoGroup" value="1000" />
+                    </td>
+
+                </tr>
+
+            </table>
+
+        </center>
+
+        <br/>
+
+            <center>
+
+                 <table cellspacing="10">
+
+            <tr>
+                    <td>
+
+                        <b></b>
+
+                    </td>
+
+                    <td>
+
+                        <p><strong>Amount</strong></p>
+
+                    </td>
+            </tr>
+
+                <tr>
+
+                    <td>
+
+                        <p>Sub Total</p>
+
+                    </td>
+
+                    <td>
+
+                        <input type="text" id="txtSubTot" name="txtSub" readonly  required/>
+
+                    </td>
+                
+                </tr>
+
+                <tr>
+
+                    <td>
+
+                        <p>Discount @ 5%</p>
+
+                    </td>
+
+                    <td>
+
+                        <input type="text" id="txtDisc" name="txtDisc" readonly  required/>
+
+                    </td>
+                </tr>
+
+                <tr>
+
+                    <td>
+
+                        <p>+ VAT @ 20%</p>
+
+                    </td>
+
+                    <td>
+
+                        <input type="text" id="txtVAT" name="txtVAT" readonly required />
+
+                    </td>
+                </tr>
+
+                <tr>
+
+                    <td>
+
+                        <p>Total</p>
+
+                    </td>
+
+                    <td>
+
+                        <input type="text" id="txtTotal" name="txtTotal" value="" readonly required/>
+
+                    </td>
+                </tr>
+
+            </table>
+
+        </center>
+       
+        <br />
+
+            <center>
+
+            <input type="button" class="buttoncalc" name="btnCalc" id="btnCalc" onclick="calcSub()" value="Calculate Amount"/>
+
+            <input type="reset" class="buttonclear" name="btnClear" id="btnClear" value="Clear"/>
+           
+           
+        </center>
+
+            </form>
+
+        </div>
+
+        </center>
+
+            <script type="text/javascript">
+
+              function calcSub(){
+                    var argSelection = parseFloat(document.getElementById('txtSubTot').value);
+                    var Hyperautomation = parseFloat(document.getElementById('Hyperautomation').value);
+                    var Multiexperience = parseFloat(document.getElementById('Multiexperience').value);
+                    var DistributedCloud = parseFloat(document.getElementById('DistributedCloud').value);
+                   
+                   
+                    if (document.getElementById('Hyperautomation').checked) {
+                        document.intCalc.txtSubTot.value = Hyperautomation;
+                        argSelection = Hyperautomation;
+                        calcVatTotal(argSelection);
+                       
+                    }
+                   else if (document.getElementById('Multiexperience').checked) {
+                        document.intCalc.txtSubTot.value = Multiexperience;
+                        argSelection = Multiexperience;
+                        calcVatTotal(argSelection);
+                       
+                    }
+                    else if (document.getElementById('DistributedCloud').checked) {
+                        document.intCalc.txtSubTot.value = DistributedCloud;
+                        argSelection = DistributedCloud;
+                        calcVatTotal(argSelection);
+                    }
+                }
+               
+               
+                function calcVatTotal(parmSelection) {
+                    var argsubTotal = parseFloat(parmSelection);
+                    var argdiscountAmt = parseFloat(argsubTotal * .05);
+                    var argvatAmt = parseFloat(argsubTotal * .20);    
+                    var argtotalPrice = parseFloat(argsubTotal - argdiscountAmt + argvatAmt);
+                   calcDisp(argsubTotal, argdiscountAmt,argvatAmt,argtotalPrice);
+                   
+                 
+                }
+
+function calcDisp(parmsubTotal, parmdiscountAmt, parmvatAmt, parmtotalPrice){
+document.intCalc.txtSubTot.value = parmsubTotal;
+document.intCalc.txtDisc.value = parmdiscountAmt;
+                    document.intCalc.txtVAT.value = parmvatAmt;
+                    document.intCalc.txtTotal.value = parmtotalPrice;
+}
+               
+               
+            </script>
+
+		</div>
+
+		<div class="footer">
+
+			<div> <h1>Created With HTML & CSS & JS</h1> </div>
+
+            <p> Contact Us @ : jcbconsultancy@jcb.com </p>
+
+		</div>
+
+	</body>
+
+</html>

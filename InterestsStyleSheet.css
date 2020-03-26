@@ -1,0 +1,203 @@
+.header {
+	flex: 100%;
+	background-color: #00cc00;
+	width: auto;
+	height: 200px;
+	overflow: hidden;
+	}
+
+.header h1 {
+	text-align: center;
+	font-size: 60px;
+	font-family: sans-serif;
+	color: white;
+	}
+
+.header h2 {
+	text-align: center;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: white;
+	}
+
+.navbar {
+	flex: 100%;
+	background-color: #1f1f14;
+	width: auto;
+	height: 50px;
+	overflow: hidden;
+	}
+
+.navbar a {
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	float: right;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-style: bold;
+	width: 33.33%;
+	height: 50px;
+	padding-top: 15px;
+	}	
+
+.navbar a:hover {
+	background-color: #b3ffb3;
+	color: #1f1f14;
+	}
+
+#Interestsnavbar {
+	flex: 100%;
+	background-color: #b3b3b3;
+	width: auto;
+	height: 50px;
+	overflow: hidden;
+	}	
+
+#Interestsnavbar a {
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	float: right;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-style: bold;
+	width: 50%;
+	height: 50px;
+	padding-top: 15px;
+	}
+
+#Interestsnavbar a:hover {
+	background-color: #b3ffb3;
+	color: #1f1f14;
+	}
+
+#upperband {
+	flex: 100%;
+	width: auto;
+	background-color: #f2f2f2;
+	height: 800px;
+	overflow: hidden;
+	}
+
+#sportsbox {
+	flex: 100%;
+	height: 300px;
+	width: 20%;
+	overflow: hidden;
+	background-color: #00cc00;
+	margin-left: 475px;
+	margin-top: 50px;
+	float: left;
+	border-radius: 25px;
+	}
+
+#sportsbox a {
+	text-decoration: none;
+	}
+
+#imgsports {
+	flex: 100%;
+	overflow: hidden;
+	margin-left: 85px;
+	margin-top: 10px;
+	}
+
+#psports {
+	text-align: center;
+	font-family: sans-serif;
+	color: #ffffff;
+	font-size: 28px;
+	text-decoration: none;
+	}
+
+#travelbox {
+	flex: 100%;
+	height: 300px;
+	width: 20%;
+	overflow: hidden;
+	background-color: #00cc00;
+	margin-left: 90px;
+	margin-top: 50px;
+	float: left;
+	border-radius: 25px;
+	}
+
+#travelbox a {
+	text-decoration: none;
+	}
+
+#imgtravel {
+	flex: 100%;
+	overflow: hidden;
+	margin-left: 85px;
+	margin-top: 10px;
+	}
+
+#ptravel {
+	text-align: center;
+	font-family: sans-serif;
+	color: #ffffff;
+	font-size: 28px;
+	text-decoration: none;
+	}
+
+#lowerband {
+	flex: 100%;
+	width: auto;
+	background-color: #ff3300;
+	height: 1400px;
+	overflow: hidden;
+	}
+
+#sport {
+	background-color: #ffffff;
+	width: 75%;
+	height: 200px;
+	margin-left: 197px;
+	}
+
+#interestlist {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 80%;
+	margin-top: 50px;
+	margin-left: 150px;
+	}
+
+#interestlist caption {
+	font-family: arial, sans-serif;
+	border: 1px solid #dddddd;
+	background-color: #00cc00;
+	color: #ffffff;
+	border: collapse;
+	padding: 20px;
+	font-size: 30px;
+	}
+
+#interestlist tr  {
+	border: 1px solid #dddddd;
+	text-align: left;
+	}
+
+#interestlist th  {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 20px;
+	font-size: 30px;
+	background-color: #595959;
+	color: #ffffff;
+	width: 35%;
+	text-align: center
+	}
+
+.footer {
+	flex: 100%;
+	background-color: #1f1f14; 
+	width: auto;
+	height: 150px;
+	overflow: hidden;
+	text-align: center;
+	font-family: sans-serif;
+	color: #ffffff;
+	}

@@ -1,0 +1,185 @@
+.header {
+	flex: 100%;
+	background-color: #ff3300;
+	width: auto;
+	height: 200px;
+	overflow: hidden;
+	}
+
+.header h1 {
+	text-align: center;
+	font-size: 60px;
+	font-family: sans-serif;
+	color: white;
+	}
+
+.header h2 {
+	text-align: center;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: white;
+	}
+
+.navbar {
+	flex: 100%;
+	background-color: #1f1f14;
+	width: auto;
+	height: 50px;
+	overflow: hidden;
+	}
+
+.navbar a {
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	float: right;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-style: bold;
+	width: 33.33%;
+	height: 50px;
+	padding-top: 15px;
+	}	
+
+.navbar a:hover {
+	background-color: #ffc2b3;
+	color: #1f1f14;
+	}
+
+#CVnavbar {
+	flex: 100%;
+	background-color: #b3b3b3;
+	width: auto;
+	height: 50px;
+	overflow: hidden;
+	}	
+
+#CVnavbar a {
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	float: right;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-style: bold;
+	width: 33.33%;
+	height: 50px;
+	padding-top: 15px;
+	}
+
+#CVnavbar a:hover {
+	background-color: #ffc2b3;
+	color: #1f1f14;
+	}
+
+#upperband {
+	flex: 100%;
+	width: auto;
+	background-color: #f2f2f2;
+	height: 400px;
+	overflow: hidden;
+	}
+
+#personalbox {
+	flex: 100%;
+	height: 300px;
+	width: 20%;
+	overflow: hidden;
+	background-color: #ff3300;
+	margin-left: 231px;
+	float: left;
+	margin-top: 40px;
+	border-radius: 25px;
+	}
+
+#personalbox a {
+	text-decoration: none;
+	}
+
+#imgpersonal {
+	flex: 100%;
+	overflow: hidden;
+	margin-left: 68px;
+	margin-top: 10px;
+	}
+
+#ppersonal {
+	text-align: center;
+	font-family: sans-serif;
+	color: #ffffff;
+	font-size: 28px;
+	text-decoration: none;
+	}
+
+#educationbox {
+	flex: 100%;
+	height: 300px;
+	width: 20%;
+	overflow: hidden;
+	background-color: #ff3300;
+	margin-left: 85px;
+	float: left;
+	margin-top: 40px;
+	border-radius: 25px;
+	}
+
+#educationbox a {
+	text-decoration: none;
+	}
+
+#imgeducation {
+	flex: 100%;
+	overflow: hidden;
+	margin-left: 68px;
+	margin-top: 10px;
+	}
+
+#peducation {
+	text-align: center;
+	font-family: sans-serif;
+	color: #ffffff;
+	font-size: 28px;
+	text-decoration: none;
+	}
+
+#workbox {
+	flex: 100%;
+	height: 300px;
+	width: 20%;
+	overflow: hidden;
+	background-color: #ff3300;
+	margin-left: 85px;
+	float: left;
+	margin-top: 40px;
+	border-radius: 25px;
+	}
+
+#workbox a {
+	text-decoration: none;
+	}
+
+#imgwork {
+	flex: 100%;
+	overflow: hidden;
+	margin-left: 68px;
+	margin-top: 10px;
+	}
+
+#pwork {
+	text-align: center;
+	font-family: sans-serif;
+	color: #ffffff;
+	font-size: 28px;
+	text-decoration: none;
+	}
+
+.footer {
+	flex: 100%;
+	background-color: #1f1f14; 
+	width: auto;
+	height: 150px;
+	overflow: hidden;
+	text-align: center;
+	font-family: sans-serif;
+	color: #ffffff;
+	}
